@@ -1,0 +1,12 @@
+.localizacao{
+padding: 160px 0;
+color: #003839;
+}
+.localizacao h2{
+    padding-bottom: 60px;
+}
+.localizacao img{
+    height: 100%px;
+    max-width: 100%;
+    margin: 0 auto;
+}

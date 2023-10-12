@@ -13,4 +13,10 @@
 @import "./especialidades/especialidades-lista.css";
 
 /* NOSSO ESPAÇO SLIDER */
-@import "./nosso-espaco/slider.css"
+@import "./nosso-espaco/slider.css";
+
+/* LOCALIZAÇÃO */
+@import "./localizacao/localizacao.css";
+
+/* AGENDAMENTO */
+@import "./agende-consulta/agende.css";

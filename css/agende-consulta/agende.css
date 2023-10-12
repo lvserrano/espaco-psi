@@ -1,0 +1,18 @@
+.agende-consulta{
+    background-color: #FFE1DA;
+    padding: 60px 0px;
+    color: #003839;
+}
+.agende-consulta p{
+    text-align: center;
+    padding: 80px 0px;
+}
+.agende-consulta div{
+    position: relative;
+}
+.agende-consulta a{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
