@@ -10,3 +10,12 @@ color: #003839;
     max-width: 100%;
     margin: 0 auto;
 }
+@media (max-width:1200px){
+    .localizacao h2{
+        font-size: 42px;
+    }
+    .localizacao{
+        padding: 60px 0;
+
+    }
+}

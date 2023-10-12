@@ -12,6 +12,8 @@
 
 /* ESPECIALIDADES */
 @import "./especialidades/especialidades-lista.css";
+/* ESPECIALIDADES */
+@import "./especialidades/servicos.css";
 
 /* NOSSO ESPAÇO SLIDER */
 @import "./nosso-espaco/slider.css";

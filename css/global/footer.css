@@ -42,6 +42,12 @@
     .footer {
         grid-template-columns: 1fr 1fr;
     }
+    .footer li {
+        font-size: 18px;
+    }
+    .footer-copy{
+        font-size: 18px;
+    }
 }
 @media (max-width:600px){
     .footer {

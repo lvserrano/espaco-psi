@@ -16,3 +16,32 @@
     transform: translateX(-50%);
     bottom: -10px;
 }
+@media (max-width:1200px){
+    .agende-consulta h2{
+        font-size: 48px;
+    }
+}
+@media (max-width:800px){
+    .agende-consulta h2{
+        font-size: 36px;
+    }
+    .agende-consulta p{
+        font-size: 24px;
+        padding: 40px 0px;
+    }
+    .agende-consulta a{
+        bottom: -40px;
+    }
+}
+@media (max-width:600px){
+    .agende-consulta h2{
+        font-size: 28px;
+    }
+    .agende-consulta a{
+        font-size: 14px;
+        padding: 16px 12px;
+    }
+    .agende-consulta p {
+        font-size: 16px;
+    }
+}
