@@ -1,4 +1,5 @@
 @import "./global/global.css";
+@import "./utilidades/tipopgrafia.css";
 @import "./global/header.css";
 
 /* UTILIDADES */
@@ -6,3 +7,10 @@
 
 /* HOME */
 @import "./home/intro.css";
+
+
+/* ESPECIALIDADES */
+@import "./especialidades/especialidades-lista.css";
+
+/* NOSSO ESPAÇO SLIDER */
+@import "./nosso-espaco/slider.css"

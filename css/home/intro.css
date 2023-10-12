@@ -11,22 +11,17 @@
 }
 .introducao h1{
     padding-top: 130px;
-    font-size: 64px;
     text-align: center;
     color: #fff;
-    font-family: 'Poppins';
-    font-weight: 600;
 }
 .introducao p{
     padding-top: 60px;
     padding-bottom: 180px;
-    font-size: 36px;
     text-align: center;
     color: #fff;
     max-width: 25ch;
     margin: 0 auto;
-    font-family: 'Roboto';
-    font-weight: 400;
+
 }
 @media(max-width: 1200px){
     .introducao h1{

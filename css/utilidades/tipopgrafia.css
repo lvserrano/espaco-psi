@@ -1,0 +1,16 @@
+.titulo{
+    font-size: 64px;
+    line-height: 1.125;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.texto-grande{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+}
+.texto-medio{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 32px;
+}

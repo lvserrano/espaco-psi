@@ -1,0 +1,120 @@
+article.slider{
+    background-color: #003839;
+}
+.slider h2{
+    padding: 60px 0;
+    color: #FFE1DA;
+}
+div.slider{
+    margin: 0 auto;
+    width: 1344px;
+    height: 700px;
+    overflow: hidden;
+}
+div.slides{
+    width: 800%;
+    height: 700px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 12.5%;
+    position: relative;
+}
+.slide img{
+    width: 1344px;
+}
+.manual-navigation{
+    position: absolute;
+    width: 1344px;
+    margin-top: -120px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    width: 20px;
+    height: 20px;
+    border: 4px solid #fff;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background-color: #FFE1DA;
+    border-color: #FFE1DA;
+}
+#radio1:checked ~ .primeira{
+    margin-left: 0;
+}
+#radio2:checked ~ .primeira{
+    margin-left: -12.5%;
+}
+#radio3:checked ~ .primeira{
+    margin-left: -25%;
+}
+#radio4:checked ~ .primeira{
+    margin-left: -37.5%;
+}
+#radio5:checked ~ .primeira{
+    margin-left: -50%;
+}
+#radio6:checked ~ .primeira{
+    margin-left: -62.5%;
+}
+#radio7:checked ~ .primeira{
+    margin-left: -75%;
+}
+.navigation-auto div{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border: 4px solid #FFE1DA;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navigation-auto{
+    position: absolute;
+    width: 1344px;
+    margin-top: 580px;
+    display: flex;
+    justify-content: center;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #FFE1DA;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #FFE1DA;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #FFE1DA;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #FFE1DA;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #FFE1DA;
+}
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background-color: #FFE1DA;
+}
+#radio7:checked ~ .navigation-auto .auto-btn7{
+    background-color: #FFE1DA;
+}
+#radio8:checked ~ .navigation-auto .auto-btn8{
+    background-color: #FFE1DA;
+}
+@media (max-width:1400px){
+    article.slider{
+        display: none;
+    }
+}
