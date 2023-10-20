@@ -6,12 +6,15 @@
 /* UTILIDADES */
 @import "./utilidades/componentes.css";
 
+/* FORMULARIO */
+@import "./utilidades/formulario.css";
+
 /* HOME */
 @import "./home/intro.css";
 
-
 /* ESPECIALIDADES */
 @import "./especialidades/especialidades-lista.css";
+
 /* ESPECIALIDADES */
 @import "./especialidades/servicos.css";
 
@@ -23,3 +26,6 @@
 
 /* AGENDAMENTO */
 @import "./agende-consulta/agende.css";
+
+/* CONTATO */
+@import "./contato/contato.css";
