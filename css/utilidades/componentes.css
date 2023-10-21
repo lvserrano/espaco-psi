@@ -1,35 +1,37 @@
-.container{
-    box-sizing: border-box;
-    max-width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.botao{
-    display: inline-block;
-    padding: 16px 32px;
-    border-radius: 5px;
-    background: linear-gradient(#FFE1DA, #D8A89C);
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.33;
-    color: #003839;
-    text-transform: uppercase;
+.botao {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 5px;
+  background: linear-gradient(#ffe1da, #d8a89c);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.33;
+  color: #003839;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
 }
-.botao-rosa{
-    background: linear-gradient(#FFE1DA, #D8A89C);
+.botao-rosa {
+  background: linear-gradient(#ffe1da, #d8a89c);
 }
-.botao-azul{
-    background: linear-gradient(#28B7BA, #0D9598);
+.botao-azul {
+  background: linear-gradient(#28b7ba, #0d9598);
 }
-.botao-rosa:hover{
-    background: linear-gradient(#eccec8, #c59184);
+.botao-rosa:hover {
+  background: linear-gradient(#eccec8, #c59184);
 }
-.botao-azul:hover{
-    background: linear-gradient(#20abad, #047274);
+.botao-azul:hover {
+  background: linear-gradient(#20abad, #047274);
 }
