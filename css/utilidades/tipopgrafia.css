@@ -1,21 +1,29 @@
-.titulo{
-    font-size: 64px;
-    line-height: 1.125;
-    font-family: 'Poppins';
-    font-weight: 600;
+.titulo {
+  font-size: 64px;
+  line-height: 1.125;
+  font-family: "Poppins";
+  font-weight: 600;
 }
-.texto-grande{
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 36px;
+.texto-grande {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
 }
-.texto-medio{
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 32px;
+.texto-medio {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 32px;
 }
-.texto-pequeno{
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 12px;
+.texto-medio-2 {
+  font-family: "Poppins";
+  font-size: 26px;
+}
+.texto-pequeno {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+}
+.texto-mg {
+  font-family: "Poppins";
+  font-size: 18px;
 }
