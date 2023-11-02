@@ -18,8 +18,11 @@
   <header class="header-bg">
     <div class="header">
       <a href="./"><img src="img/rosa.svg" alt="Espaço PSI"></a>
-      <nav aria-label="primaria">
-        <ul class="header-menu" role="list">
+      <nav id="nav" aria-label="primaria">
+        <button id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false" aria-label="Abrir Menu">
+          <span id="hamburguer"></span>
+        </button>
+        <ul class="header-menu" role="list" id="menu">
           <li><a href="./sobre.html">Sobre Nós</a></li>
           <li><a href="./index.html#especialidades">Serviços</a></li>
           <li><a href="./equipe.html">Equipe</a></li>
@@ -102,6 +105,7 @@
     </div>
   </footer>
   <script src="./scripts/slider.js"></script>
+  <script src="./scripts/menu.js"></script>
 </body>
 
 </html>
