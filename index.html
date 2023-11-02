@@ -4,22 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Espaço PSI | Home</title>
-  <meta name="description" content="Descrição da clínica">
+  <title>Espaço PSI - Página Inicial</title>
+  <meta name="description" content="Sua clínica de psicologia para um bem-estar emocional completo. Oferecemos terapia individual e tratamentos especializados. Descubra como podemos ajudar você a viver uma vida mais saudável e equilibrada.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="icon" href="./icon.ico" type="image/x-icon">
-  <link rel="icon" href="/caminho-para-seu-icone.ico" type="image/x-icon">
 </head>
 
 <body>
   <header class="header-bg">
     <div class="header">
       <a href="./"><img src="img/rosa.svg" alt="Espaço PSI"></a>
-      <nav aria-label="primaria">
-        <ul class="header-menu" role="list">
+      <nav id="nav" aria-label="primaria">
+        <button id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false" aria-label="Abrir Menu">
+          <span id="hamburguer"></span>
+        </button>
+        <ul class="header-menu" role="list" id="menu">
           <li><a href="./sobre.html">Sobre Nós</a></li>
           <li><a href="./index.html#especialidades">Serviços</a></li>
           <li><a href="./equipe.html">Equipe</a></li>
@@ -196,6 +198,7 @@
     </div>
   </footer>
   <script src="./scripts/slider.js"></script>
+  <script src="./scripts/menu.js"></script>
 </body>
 
 </html>

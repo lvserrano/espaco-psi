@@ -1,47 +1,46 @@
-.introducao-bg{
-    background-image: url("./../../img/bg_home.jpg");
-    background-position: center center;
-    background-size: cover;
+.introducao-bg {
+  background-image: url("./../../img/teste2.gif");
+  background-position: center center;
+  background-size: cover;
 }
-.introducao{
-    max-width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
+.introducao {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
 }
-.introducao h1{
-    padding-top: 130px;
-    text-align: center;
-    color: #fff;
+.introducao h1 {
+  padding-top: 130px;
+  text-align: center;
+  color: #fff;
 }
-.introducao p{
-    padding-top: 60px;
-    padding-bottom: 180px;
-    text-align: center;
-    color: #fff;
-    max-width: 25ch;
-    margin: 0 auto;
-
+.introducao p {
+  padding-top: 60px;
+  padding-bottom: 180px;
+  text-align: center;
+  color: #fff;
+  max-width: 25ch;
+  margin: 0 auto;
 }
-@media(max-width: 1200px){
-    .introducao h1{
-        padding-top: 65px;
-        font-size: 48px;
-    }
-    .introducao p{
-        font-size: 18px;
-        padding-top: 30px;
-        padding-bottom: 90px;
-    }
+@media (max-width: 1200px) {
+  .introducao h1 {
+    padding-top: 65px;
+    font-size: 48px;
+  }
+  .introducao p {
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 90px;
+  }
 }
-@media(max-width: 800px){
-    .introducao h1{
-        padding-top: 32px;
-        font-size: 32px;
-        margin-bottom: 20px;
-    }
-    .introducao p{
-        padding-top: 15px;
-        padding-bottom: 45px;
-    }
+@media (max-width: 800px) {
+  .introducao h1 {
+    padding-top: 32px;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .introducao p {
+    padding-top: 15px;
+    padding-bottom: 45px;
+  }
 }
