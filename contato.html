@@ -42,19 +42,19 @@
       <section class="contato-dados" aria-label="Endereço">
         <h2 class="texto-grande">Falar com especialista</h2>
         <div class="contato-endereco">
-          <p>Rua Ali Perto</p>
-          <p>Rio de Janeiro</p>
+          <p>Estrada do campinho Nº298</p>
           <p>Campo Grande</p>
+          <p>Rio de Janeiro - RJ</p>
         </div>
         <address class="contato-meios">
-          <a href="mailto:contato@espacopsi.com.br">contato@espacopsi.com.br</a>
-          <a href="mailto:contato@espacopsi.com.br">+55 21 9999-9999</a>
+          <a href="mailto:espacopsi.atendimento@gmail.com">espacopsi.atendimento@gmail.com</a>
+          <a href="tel:+552124381996">+55212438-1996</a>
         </address>
         <div class="contato-redes">
-          <a href="./">
+          <a href="https://www.instagram.com/espacopsi.atendimento/" target="_blank">
             <img src="./img/icones/instagram-p.svg" alt="Instagram">
           </a>
-          <a href="./">
+          <a href="https://www.facebook.com/p/Espa%C3%A7o-Psi-Psicologia-Cl%C3%ADnica-100048940663882/" target="_blank">
             <img src="./img/icones/facebook-p.svg" alt="Facebook">
           </a>
         </div>
@@ -63,17 +63,17 @@
         <form class="form" action="./contato.html">
           <div class="col-2">
             <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" placeholder="Seu Nome">
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
           </div>
           <div class="col-2">
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" name="telefone" placeholder="(21) 9 9999 999">
+            <input type="text" id="telefone" name="telefone" placeholder="(21) 9 9999 999" required>
           </div>
           <div class="col-2">
             <label for="mensagem">Mensagem</label>
             <textarea rows="5" id="mensagem" name="mensagem"> </textarea>
           </div>
-          <button class="botao botao-azul">Enviar Mensagem</button>
+          <button type="button" class="botao botao-azul" onclick="enviarMensagem()">Enviar Mensagem</button>
         </form>
       </section>
     </div>
@@ -113,6 +113,26 @@
       <p class="footer-copy">Todos os direitos reservados © 2023 Espaço Psi</p>
     </div>
   </footer>
+  <script>
+    function enviarMensagem() {
+      var name = document.getElementById("nome").value;
+      var phone = document.getElementById("telefone").value;
+      var message = document.getElementById("mensagem").value;
+
+      // Remova caracteres não numéricos do número de telefone
+      phone = phone.replace(/\D/g, '');
+
+      // Formate a mensagem de uma forma mais clara
+      var mensagemFormatada = `Olá, vim pelo site. \n\nMeu nome é*${name}*\n\nMeu telefone: *${phone}.*\n\n*Mensagem:*${message}.`;
+
+      // Crie o link para o WhatsApp
+      var whatsappLink = `https://wa.me/5521998783671?text=${encodeURIComponent(mensagemFormatada)}`;
+
+      // Redirecione o usuário para o link do WhatsApp
+      window.location.href = whatsappLink;
+    }
+  </script>
+
   <script src="./scripts/slider.js"></script>
   <script src="./scripts/menu.js"></script>
 </body>
