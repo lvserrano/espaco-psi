@@ -123,7 +123,7 @@
       phone = phone.replace(/\D/g, '');
 
       // Formate a mensagem de uma forma mais clara
-      var mensagemFormatada = `Olá, vim pelo site. \n\nMeu nome é*${name}*\n\nMeu telefone: *${phone}.*\n\n*Mensagem:*${message}.`;
+      var mensagemFormatada = `Olá, vim pelo site. \n\nMeu nome é: *${name}*\n\nMeu telefone: *${phone}.*\n\n*Mensagem:*${message}.`;
 
       // Crie o link para o WhatsApp
       var whatsappLink = `https://wa.me/5521998783671?text=${encodeURIComponent(mensagemFormatada)}`;
