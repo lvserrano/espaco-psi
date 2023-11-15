@@ -1,15 +1,22 @@
 let count = 1;
 document.getElementById("radio1").checked = true;
 
-setInterval( function(){
-    nextIamge()
-}, 3500)
+// Adicione ouvintes de eventos a cada botão
+for (let i = 1; i <= 6; i++) {
+  document.getElementById("radio" + i).addEventListener("click", function () {
+    count = i;
+  });
+}
 
-function nextIamge(){
-    count++;
-    if(count>7){
-        count = 1;
-    }
+setInterval(function () {
+  nextImage();
+}, 2500);
 
-    document.getElementById("radio"+count).checked = true;
+function nextImage() {
+  count++;
+  if (count > 6) {
+    count = 1;
+  }
+
+  document.getElementById("radio" + count).checked = true;
 }
